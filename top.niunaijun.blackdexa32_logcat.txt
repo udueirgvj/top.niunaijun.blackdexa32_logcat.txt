@@ -1,0 +1,577 @@
+--------- beginning of main
+10-22 10:36:13.844 20647 20647 D CompatibilityChangeReporter: Compat change id reported: 183155436; UID 10259; state: DISABLED
+10-22 10:36:13.849 20647 16872 W AsyncDrawableCache: can not found res: 2131231252, maybe dynamic res id.
+10-22 10:36:13.849 20647 16872 W AsyncDrawableCache: can not found res: 2131820569, maybe dynamic res id.
+10-22 10:36:13.880 16875 16875 I ackdexa32:black: Using CollectorTypeCMC GC.
+10-22 10:36:13.884 16875 16875 E ackdexa32:black: Not starting debugger since process cannot load the jdwp agent.
+10-22 10:36:13.889 16875 16875 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-22 10:36:13.901 16875 16875 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10259; state: DISABLED
+10-22 10:36:13.901 16875 16875 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10259; state: DISABLED
+--------- beginning of system
+10-22 10:36:13.904 16875 16875 D TranClassInfo: instance successfully. com.transsion.hubcore.graphics.TranGraphicImpl@bb9d6e2 from com.transsion.hubcore.graphics.ITranGraphic
+10-22 10:36:13.904 16875 16875 D os.SingleLiceFactory: instance successfully. com.transsion.typeface.v1.TypefaceLice@e73d846 from android.graphics.IGraphicLice
+10-22 10:36:13.905 16875 16875 D os.LiceInfo: instance successfully. com.transsion.graphics.GraphicLice@2658a73 from android.graphics.IGraphicLice
+10-22 10:36:13.914 16875 16875 D nativeloader: Configuring clns-4 for other apk /data/app/~~XAmx4UcfcEbHdhEczOGPVQ==/top.niunaijun.blackdexa32-r9ARsHTw1_uVFyz9siHw2A==/base.apk. target_sdk_version=30, uses_libraries=, library_path=/data/app/~~XAmx4UcfcEbHdhEczOGPVQ==/top.niunaijun.blackdexa32-r9ARsHTw1_uVFyz9siHw2A==/lib/arm:/data/app/~~XAmx4UcfcEbHdhEczOGPVQ==/top.niunaijun.blackdexa32-r9ARsHTw1_uVFyz9siHw2A==/base.apk!/lib/armeabi-v7a, permitted_path=/data:/mnt/expand:/data/user/0/top.niunaijun.blackdexa32
+10-22 10:36:13.914 16875 16875 D nativeloader: Extending system_exposed_libraries: libapuwareapusys.mtk.so:libapuwareapusys_v2.mtk.so:libapuwarexrp.mtk.so:libapuwarexrp_v2.mtk.so:libapuwareutils.mtk.so:libapuwareutils_v2.mtk.so:libapuwarehmp.mtk.so:libmcv_runtime_usdk.mtk.so:libneuron_graph_delegate.mtk.so:libneuronusdk_adapter.mtk.so:libtflite_mtk.mtk.so:libarmnn_ndk.mtk.so:libcmdl_ndk.mtk.so:libnir_neon_driver_ndk.mtk.so:libmvpu_runtime.mtk.so:libmvpu_runtime_pub.mtk.so:libmvpu_engine_pub.mtk.so:libmvpu_pattern_pub.mtk.so:libmvpuop_mtk_cv.mtk.so:libmvpuop_mtk_nn.mtk.so:libmvpu_runtime_25.mtk.so:libmvpu_runtime_25_pub.mtk.so:libmvpu_engine_25_pub.mtk.so:libmvpu_pattern_25_pub.mtk.so:libmvpuop25_mtk_cv.mtk.so:libmvpuop25_mtk_nn.mtk.so:libmvpu_config.mtk.so:libteeservice_client.trustonic.so
+10-22 10:36:13.924 16875 16875 D nativeloader: Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+10-22 10:36:13.926 16875 16875 V GraphicsEnvironment: Currently set values for:
+10-22 10:36:13.926 16875 16875 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-22 10:36:13.926 16875 16875 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-22 10:36:13.927 16875 16875 V GraphicsEnvironment: ANGLE GameManagerService for top.niunaijun.blackdexa32: false
+10-22 10:36:13.927 16875 16875 V GraphicsEnvironment: top.niunaijun.blackdexa32 is not listed in per-application setting
+10-22 10:36:13.927 16875 16875 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-22 10:36:13.931 16875 16875 I LoadedApk: No resource references to update in package com.transsion.theme.icon
+10-22 10:36:13.942 16875 16875 W ackdexa32:black: Accessing hidden method Ldalvik/system/VMRuntime;->setHiddenApiExemptions([Ljava/lang/String;)V (blocked,core-platform-api, reflection, denied)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: reflect bootstrap failed:
+10-22 10:36:13.943 16875 16875 W BootstrapClass: java.lang.reflect.InvocationTargetException
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at java.lang.reflect.Method.invoke(Native Method)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at me.weishu.reflection.BootstrapClass.<clinit>(BootstrapClass.java:29)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at me.weishu.reflection.Reflection.unseal(Reflection.java:34)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at top.niunaijun.blackbox.BlackBoxCore.doAttachBaseContext(BlackBoxCore.java:82)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at top.niunaijun.blackbox.BlackDexCore.doAttachBaseContext(BlackDexCore.java:35)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at top.niunaijun.blackdex.app.BlackDexLoader.attachBaseContext(BlackDexLoader.kt:39)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at top.niunaijun.blackdex.app.AppManager.doAttachBaseContext(AppManager.kt:13)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at top.niunaijun.blackdex.app.App.attachBaseContext(App.kt:31)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at android.app.Application.attach(Application.java:348)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1287)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1471)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1404)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7150)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2314)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at android.os.Looper.loopOnce(Looper.java:243)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at android.os.Looper.loop(Looper.java:338)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at android.app.ActivityThread.main(ActivityThread.java:8399)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at java.lang.reflect.Method.invoke(Native Method)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:589)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1055)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: Caused by: java.lang.NoSuchMethodException: dalvik.system.VMRuntime.setHiddenApiExemptions [class [Ljava.lang.String;]
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at java.lang.Class.getMethod(Class.java:2950)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	at java.lang.Class.getDeclaredMethod(Class.java:2929)
+10-22 10:36:13.943 16875 16875 W BootstrapClass: 	... 22 more
+10-22 10:36:13.944 16875 16875 E ackdexa32:black: Attempt to load writable dex file: /data/user/0/top.niunaijun.blackdexa32/code_cache/1729582573944.dex
+10-22 10:36:13.944 16875 16875 D CompatibilityChangeReporter: Compat change id reported: 218865702; UID 10259; state: DISABLED
+10-22 10:36:13.944 16875 16875 W ackdexa32:black: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+10-22 10:36:13.945 16875 16875 W ackdexa32:black: DexFile /data/user/0/top.niunaijun.blackdexa32/code_cache/1729582573944.dex is in boot class path but is not in a known location
+10-22 10:36:13.976 16875 16875 D TranClassInfo: instance successfully. com.transsion.hubcore.util.TranAtomFileImpl@140c8bc from com.transsion.hubcore.util.ITranAtomFile
+10-22 10:36:13.977 16875 16875 W System  : ClassLoader referenced unknown path: /system/framework/xmlprotect.jar
+10-22 10:36:13.978 16875 16875 W TranClassInfo: instance failed. com.transsion.storage.xmlprotect.TranXmlProtectVerifyComponentImpl from com.transsion.hubcore.fileprotect.ITranXmlProtectVerifyComponent
+10-22 10:36:13.978 16875 16875 W TranClassInfo: java.lang.ClassNotFoundException: com.transsion.storage.xmlprotect.TranXmlProtectVerifyComponentImpl
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at java.lang.Class.classForName(Native Method)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at java.lang.Class.forName(Class.java:607)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at com.transsion.hubcore.utils.TranClassInfo.getImpl(TranClassInfo.java:124)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at com.transsion.hubcore.fileprotect.ITranXmlProtectVerifyComponent.Instance(ITranXmlProtectVerifyComponent.java:18)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at com.transsion.hubcore.util.TranAtomFileImpl.verifyFileBeforeFinishWrite(TranAtomFileImpl.java:11)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at android.util.AtomicFile.finishWrite(AtomicFile.java:193)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at top.niunaijun.blackbox.core.system.pm.BPackageSettings.save(BPackageSettings.java:105)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at top.niunaijun.blackbox.core.system.pm.Settings.updatePackageLP(Settings.java:182)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at top.niunaijun.blackbox.core.system.pm.Settings.scanPackage(Settings.java:154)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at top.niunaijun.blackbox.core.system.pm.BPackageManagerService.systemReady(BPackageManagerService.java:709)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at top.niunaijun.blackbox.core.system.BlackBoxSystem.startup(BlackBoxSystem.java:51)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at top.niunaijun.blackbox.core.system.SystemCallProvider.initSystem(SystemCallProvider.java:29)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at top.niunaijun.blackbox.core.system.SystemCallProvider.onCreate(SystemCallProvider.java:25)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2630)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2600)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at android.app.ActivityThread.installProvider(ActivityThread.java:7978)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:7481)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7174)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2314)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at android.os.Looper.loopOnce(Looper.java:243)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at android.os.Looper.loop(Looper.java:338)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at android.app.ActivityThread.main(ActivityThread.java:8399)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at java.lang.reflect.Method.invoke(Native Method)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:589)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1055)
+10-22 10:36:13.978 16875 16875 W TranClassInfo: Caused by: java.lang.ClassNotFoundException: com.transsion.storage.xmlprotect.TranXmlProtectVerifyComponentImpl
+10-22 10:36:13.978 16875 16875 W TranClassInfo: 	... 27 more
+10-22 10:36:13.978 16875 16875 D TranClassInfo: using com.transsion.hubcore.fileprotect.ITranXmlProtectVerifyComponent$1@10824cb instead of [com.transsion.storage.xmlprotect.TranXmlProtectVerifyComponentImpl] from com.transsion.hubcore.fileprotect.ITranXmlProtectVerifyComponent
+10-22 10:36:13.979 16875 16875 D Settings: loaded Package: bin.mt.plus
+10-22 10:36:13.992 16875 16891 D BPackageInstallerService: uninstallPackageAsUser: RemoveAppExecutor exec: 0
+10-22 10:36:13.993 16875 16891 D BPackageInstallerService: uninstallPackageAsUser: RemoveUserExecutor exec: 0
+10-22 10:36:13.993 16875 16891 D BPackageManagerService: onPackageUninstalled: bin.mt.plus, userId: 0
+10-22 10:36:14.010 16875 16904 D nativeloader: Load /data/app/~~XAmx4UcfcEbHdhEczOGPVQ==/top.niunaijun.blackdexa32-r9ARsHTw1_uVFyz9siHw2A==/lib/arm/libumeng-spy.so using ns clns-4 from class loader (caller=/data/app/~~XAmx4UcfcEbHdhEczOGPVQ==/top.niunaijun.blackdexa32-r9ARsHTw1_uVFyz9siHw2A==/base.apk): ok
+10-22 10:36:14.014 20647 16914 D libMEOW : meow new tls: 0xe28dbc50
+10-22 10:36:14.014 20647 16914 D libMEOW : meow reload base cfg path: na
+10-22 10:36:14.015 20647 16914 D libMEOW : meow reload overlay cfg path: na
+10-22 10:36:14.015 20647 16914 W QT      : qt_process_init() called
+10-22 10:36:14.012 20647 20647 W RenderThread: type=1400 audit(0.0:15852): avc:  denied  { open } for  path="/data/system/mcd/qt.cfg" dev="dm-67" ino=52253 scontext=u:r:untrusted_app_30:s0:c3,c257,c512,c768 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=0 app=top.niunaijun.blackdexa32
+10-22 10:36:14.015 20647 16914 E QT      : [QT]file does not exist
+10-22 10:36:14.015 20647 16914 W QT      : Support!!
+10-22 10:36:14.017 20647 16911 D nativeloader: Load /data/app/~~XAmx4UcfcEbHdhEczOGPVQ==/top.niunaijun.blackdexa32-r9ARsHTw1_uVFyz9siHw2A==/lib/arm/libumeng-spy.so using ns clns-4 from class loader (caller=/data/app/~~XAmx4UcfcEbHdhEczOGPVQ==/top.niunaijun.blackdexa32-r9ARsHTw1_uVFyz9siHw2A==/base.apk): ok
+10-22 10:36:14.028 20647 16914 I libMEOW_gift: open /data/performance/gift/arc.ini
+10-22 10:36:14.024 20647 20647 W RenderThread: type=1400 audit(0.0:15853): avc:  denied  { open } for  path="/data/system/mcd/qt.cfg" dev="dm-67" ino=52253 scontext=u:r:untrusted_app_30:s0:c3,c257,c512,c768 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=0 app=top.niunaijun.blackdexa32
+10-22 10:36:14.028 20647 16914 E QT      : [QT]file does not exist
+10-22 10:36:14.029 20647 16914 D libMEOW : applied 1 plugins for [top.niunaijun.blackdexa32]:
+10-22 10:36:14.029 20647 16914 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xae50db70
+10-22 10:36:14.030 20647 20647 D ActivityThread: ++ activityComponent:top.niunaijun.blackdexa32/top.niunaijun.blackdex.view.base.WelcomeActivity counts:1 ALEAK_CLEAR_SUPPORT:true
+10-22 10:36:14.030 20647 16914 D libMEOW : rebuild call chain: 0xe28f7890
+10-22 10:36:14.030 20647 16914 D libMEOW : meow delete tls: 0xe28dbc50
+10-22 10:36:14.040 20647 20647 D TranClassInfo: instance successfully. com.transsion.hubcore.app.TranActivityImpl@6dd4f20 from com.transsion.hubcore.app.ITranActivity
+10-22 10:36:14.040 20647 20647 I TranVersion: TranVersion static initializer: default = 34.2.1.1
+10-22 10:36:14.040 20647 20647 I TranVersion:  debug = false, debug_version = 34.2.1.1
+10-22 10:36:14.041 20647 20647 D TranClassInfo: instance successfully. com.transsion.hubcore.spdopts.magellan.implement.TranMagellanActivityComponentImpl@d16a0d9 from com.transsion.hubcore.magellan.ITranMagellanActivityComponent
+10-22 10:36:14.080 20647 16911 D TrafficStats: tagSocket(112) with statsTag=0xffffffff, statsUid=-1
+10-22 10:36:14.091 20647 16900 D TranClassInfo: instance successfully. com.transsion.hubcore.database.sqlite.TranSQLiteDatabaseImpl@b229414 from com.transsion.hubcore.database.sqlite.ITranSQLiteDatabase
+10-22 10:36:14.091 20647 16900 D TranClassInfo: instance successfully. com.transsion.hubcore.spdopts.others.implement.TranSQLiteDatabaseComponentImpl@24f54bd from com.transsion.hubcore.spdcomponent.ITranSQLiteDatabaseComponent
+10-22 10:36:14.094 20647 16900 I MobclickAgent: module init:azio
+10-22 10:36:14.094 20647 16858 D ActivityThreadLice: received OSMessage 110001
+10-22 10:36:14.096 20647 16858 D ActivityThreadLice: send OSMessage 110001 to [-1]
+10-22 10:36:14.098 20647 16858 D OSServiceManager: update local os service os.activity from null to android.os.BinderProxy@b9edd80
+10-22 10:36:14.098 20647 20647 D TranClassInfo: instance successfully. com.transsion.hubcore.view.TranViewImpl@b217fb9 from com.transsion.hubcore.view.ITranView
+10-22 10:36:14.098 20647 20647 D TranClassInfo: instance successfully. com.transsion.hubcore.spdopts.appturbo.implement.TranViewAppturboImpl@443effe from com.transsion.hubcore.appturbo.ITranViewAppturboComponent
+10-22 10:36:14.098 20647 20647 D TranClassInfo: instance successfully. com.transsion.hubcore.spdopts.appturbo.TranAppturboServiceImpl@80c35f from com.transsion.hubcore.spdopts.appturbo.ITranAppturboService
+10-22 10:36:14.101 20647 20647 D os.SingleLice: instance successfully. com.transsion.dragdrop.v1.DragDropLice@e515e75 from com.transsion.dragdrop.DragDropLiceFactory
+10-22 10:36:14.102 20647 20647 D os.SingleLiceFactory: instance successfully. com.transsion.dragdrop.v1.DragDropLice@e515e75 from android.view.IViewLice
+10-22 10:36:14.102 20647 20647 D os.LiceInfo: instance successfully. com.transsion.view.ViewLice@6eb0e0a from android.view.IViewLice
+10-22 10:36:14.104 20647 20647 D TranClassInfo: instance successfully. com.transsion.hubcore.spdopts.magellan.implement.TranMagellanViewComponentImpl@70adc98 from com.transsion.hubcore.magellan.ITranMagellanViewComponent
+10-22 10:36:14.106 20647 20647 D TranClassInfo: instance successfully. com.transsion.hubcore.internal.TranInternalViewImpl@d1d2a44 from com.transsion.hubcore.internal.ITranInternalView
+10-22 10:36:14.107 20647 20647 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@ce3e72d instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 10:36:14.107 20647 20647 D os.SingleLice: instance successfully. com.transsion.whitenavigation.v1.WhiteNavigationLice@7475462 from com.transsion.whitenavigation.WhiteNavigationLiceFactory
+10-22 10:36:14.107 20647 20647 D os.SingleLiceFactory: instance successfully. com.transsion.whitenavigation.v1.WhiteNavigationLice@7475462 from com.android.internal.IInternalViewLice
+10-22 10:36:14.107 20647 20647 D os.SingleLice: instance successfully. com.transsion.screenshothelper.v1.ScreenShotHelperImplLice@ae0f9f3 from com.transsion.screenshothelper.ScreenShotHelperImplLiceFactory
+10-22 10:36:14.107 20647 20647 D os.SingleLiceFactory: instance successfully. com.transsion.screenshothelper.v1.ScreenShotHelperImplLice@ae0f9f3 from com.android.internal.IInternalViewLice
+10-22 10:36:14.107 20647 20647 D os.LiceInfo: instance successfully. com.transsion.internal.InternalViewLice@2e4a6b0 from com.android.internal.IInternalViewLice
+10-22 10:36:14.148 20647 16933 D libMEOW : meow new tls: 0xe28dbc50
+10-22 10:36:14.148 20647 16933 D libMEOW : applied 1 plugins for [top.niunaijun.blackdexa32]:
+10-22 10:36:14.148 20647 16933 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xae50db70
+10-22 10:36:14.149 20647 16933 D libMEOW : rebuild call chain: 0xe28f7890
+10-22 10:36:14.149 20647 16933 D libMEOW : meow delete tls: 0xe28dbc50
+10-22 10:36:14.153 20647 20647 D ActivityThread: ++ activityComponent:top.niunaijun.blackdexa32/top.niunaijun.blackdex.view.main.MainActivity counts:1 ALEAK_CLEAR_SUPPORT:true
+10-22 10:36:14.163 20647 20647 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10259; state: DISABLED
+10-22 10:36:14.164 20647 20647 D CompatibilityChangeReporter: Compat change id reported: 37756858; UID 10259; state: ENABLED
+10-22 10:36:14.189 20647 20647 I M-ProMotion: M-ProMotion is disabled
+10-22 10:36:14.206 20647 20647 D TranClassInfo: instance successfully. com.transsion.hubcore.widget.TranOverScrollerImpl@6e99563 from com.transsion.hubcore.widget.ITranOverScroller
+10-22 10:36:14.206 20647 20647 D TranClassInfo: instance successfully. com.transsion.hubcore.spdopts.flingmanager.implement.TranFlingManagerImpl@a8af560 from com.transsion.hubcore.flingmanager.ITranFlingManager
+10-22 10:36:14.221 20647 20647 D TranClassInfo: instance successfully. com.transsion.hubcore.spdopts.appturbo.implement.TranActivityAppturboImpl@d2c29fd from com.transsion.hubcore.appturbo.ITranActivityAppturboComponent
+10-22 10:36:14.221 20647 20647 D TranActivityAppturboImpl: onResumeHork
+10-22 10:36:14.226 20647 20647 I SurfaceFactory: [static] sSurfaceFactory = com.mediatek.view.impl.SurfaceFactoryImpl@41cc03e
+10-22 10:36:14.227 20647 16934 D nativeloader: Load libpowerhalwrap_jni.so using system ns (caller=/system_ext/framework/mediatek-framework.jar): ok
+10-22 10:36:14.227 20647 16934 I PowerHalWrapper: PowerHalWrapper.getInstance 
+10-22 10:36:14.227 20647 20647 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10259; state: DISABLED
+10-22 10:36:14.232 20647 20647 D VRI[MainActivity]: hardware acceleration = true, forceHwAccelerated = false
+10-22 10:36:14.238 20647 20647 D libMEOW : meow new tls: 0xda70de30
+10-22 10:36:14.238 20647 20647 D libMEOW : applied 1 plugins for [top.niunaijun.blackdexa32]:
+10-22 10:36:14.238 20647 20647 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xae50db70
+10-22 10:36:14.238 20647 20647 D libMEOW : rebuild call chain: 0xda700010
+10-22 10:36:14.239 20647 20647 D InputTransport: Create ARC handle: 0xe9cb3e50
+10-22 10:36:14.239 20647 20647 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+10-22 10:36:14.239 20647 20647 D InputTransport: Input log is disabled in InputChannel.
+10-22 10:36:14.242 20647 20647 D AutofillManager: view not autofillable - not passing ime action check
+10-22 10:36:14.269 20647 20647 D BufferQueueConsumer: [](id:50a700000000,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:36:14.271 20647 20647 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+10-22 10:36:14.272 20647 20647 I config_debug: updateDecorCaptionStatus: {1.0 418mcc20mnc [ar_EG] ldrtl sw360dp w360dp h736dp 480dpi nrml long widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2436) mAppBounds=Rect(0, 108 - 1080, 2316) mMaxBounds=Rect(0, 0 - 1080, 2436) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mMultiWindowMode=normal mMultiWindowId=0 mWindowResiable=6 mInLargeScreen=-1 mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.1 fontWeightAdjustment=0} fromMultiWindow: true
+10-22 10:36:14.273 20647 16909 D libMEOW : meow new tls: 0xe28dbc50
+10-22 10:36:14.273 20647 16909 D libMEOW : applied 1 plugins for [top.niunaijun.blackdexa32]:
+10-22 10:36:14.273 20647 16909 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xae50db70
+10-22 10:36:14.274 20647 16909 D libMEOW : rebuild call chain: 0xe28f7890
+10-22 10:36:14.292 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:36:14.321 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#0](f:0,a:1) acquireNextBufferLocked size=1080x2436 mFrameNumber=1 applyTransaction=true mTimestamp=12414300111046(auto) mPendingTransactions.size=0 graphicBufferId=88678189760512 transform=0
+10-22 10:36:14.406 20647 16901 D CompatibilityChangeReporter: Compat change id reported: 247079863; UID 10259; state: DISABLED
+10-22 10:36:14.419 20647 16900 W SQLiteLog: (28) double-quoted string literal: "C7E224705C8DACEB50929AB327CF67EB"
+10-22 10:36:14.419 20647 16900 W SQLiteLog: (28) double-quoted string literal: ""
+10-22 10:36:14.419 20647 16900 W SQLiteLog: (28) double-quoted string literal: "C7E224705C8DACEB50929AB327CF67EB"
+10-22 10:36:14.419 20647 16900 W SQLiteLog: (28) double-quoted string literal: "-1"
+10-22 10:36:14.441 20647 16901 D TrafficStats: tagSocket(243) with statsTag=0xffffffff, statsUid=-1
+10-22 10:36:14.453 20647 16936 I incfs   : Initial API level of the device: 34
+10-22 10:36:14.453 20647 16936 W libc    : Access denied finding property "ro.incremental.enable"
+10-22 10:36:14.453 20647 16936 I incfs   : ro.incremental.enable: on
+10-22 10:36:14.453 20647 16936 I incfs   : IncFs_Features: v2
+10-22 10:36:14.452 20647 20647 W DefaultDispatch: type=1400 audit(0.0:15854): avc:  denied  { read } for  name="u:object_r:incremental_prop:s0" dev="tmpfs" ino=265 scontext=u:r:untrusted_app_30:s0:c3,c257,c512,c768 tcontext=u:object_r:incremental_prop:s0 tclass=file permissive=0 app=top.niunaijun.blackdexa32
+10-22 10:36:14.452 20647 20647 W DefaultDispatch: type=1400 audit(0.0:15855): avc:  denied  { read } for  name="filesystems" dev="proc" ino=4026532148 scontext=u:r:untrusted_app_30:s0:c3,c257,c512,c768 tcontext=u:object_r:proc_filesystems:s0 tclass=file permissive=0 app=top.niunaijun.blackdexa32
+10-22 10:36:14.454 20647 16936 I incfs-mounts: [incfs] Loaded incremental-fs mount info: 2 instances, 4 mount points
+10-22 10:36:14.465 20647 20647 D ActivityThread: mToDestroying.remove:ActivityRecord{8895ba0 token=android.os.BinderProxy@a8d97d8 {top.niunaijun.blackdexa32/top.niunaijun.blackdex.view.base.WelcomeActivity}}
+10-22 10:36:14.886 16875 16904 D TrafficStats: tagSocket(100) with statsTag=0xffffffff, statsUid=-1
+10-22 10:36:15.684 20647 20647 D os.LiceInfo: instance successfully. com.transsion.message.bank.v1.MessageBankLice@18ec152 from com.transsion.message.bank.IMessageBankLice
+10-22 10:36:15.687 20647 20647 D TranClassInfo: instance successfully. com.transsion.hubcore.internal.policy.TranDecorViewImpl@198b520 from com.transsion.hubcore.internal.policy.ITranDecorView
+10-22 10:36:15.700 20647 16909 I mali    : [DebugProp] GPU Debug-Mechanism Disable !
+10-22 10:36:15.769 20647 20647 D TranClassInfo: instance successfully. com.transsion.hubcore.app.TranAppImpl@224034c from com.transsion.hubcore.app.ITranApp
+10-22 10:36:15.785 20647 20647 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10259; state: ENABLED
+10-22 10:36:15.789 20647 20647 D VRI[MainActivity]: hardware acceleration = true, forceHwAccelerated = false
+10-22 10:36:15.796 20647 20647 D InputTransport: Create ARC handle: 0xd7f2d9b0
+10-22 10:36:15.796 20647 20647 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+10-22 10:36:15.796 20647 20647 D InputTransport: Input log is disabled in InputChannel.
+10-22 10:36:15.808 20647 20647 D BufferQueueConsumer: [](id:50a700000001,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:36:15.809 20647 20647 I config_debug: updateDecorCaptionStatus: {1.0 418mcc20mnc [ar_EG] ldrtl sw360dp w360dp h736dp 480dpi nrml long widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2436) mAppBounds=Rect(0, 108 - 1080, 2316) mMaxBounds=Rect(0, 0 - 1080, 2436) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mMultiWindowMode=normal mMultiWindowId=0 mWindowResiable=6 mInLargeScreen=-1 mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.1 fontWeightAdjustment=0} fromMultiWindow: true
+10-22 10:36:15.810 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:36:15.828 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#1](f:0,a:1) acquireNextBufferLocked size=1080x824 mFrameNumber=1 applyTransaction=true mTimestamp=12415807525739(auto) mPendingTransactions.size=0 graphicBufferId=88678189760524 transform=0
+10-22 10:36:18.605 20647 16900 W SQLiteLog: (28) double-quoted string literal: "
+10-22 10:36:18.605 20647 16900 W SQLiteLog: (28) double-quoted string literal: "C7E224705C8DACEB50929AB327CF67EB"
+10-22 10:36:19.048 20647 20647 D BLASTBufferQueue: [VRI[MainActivity]#0](f:0,a:1) destructor()
+10-22 10:36:19.048 20647 20647 D BufferQueueConsumer: [VRI[MainActivity]#0(BLAST Consumer)0](id:50a700000000,api:0,p:-1,c:20647) disconnect
+10-22 10:36:19.065 20647 20647 D BLASTBufferQueue: [VRI[MainActivity]#1](f:0,a:1) destructor()
+10-22 10:36:19.065 20647 20647 D BufferQueueConsumer: [VRI[MainActivity]#1(BLAST Consumer)1](id:50a700000001,api:0,p:-1,c:20647) disconnect
+10-22 10:36:24.229 20647 16853 W jun.blackdexa32: Cleared Reference was only reachable from finalizer (only reported once)
+10-22 10:36:24.264 20647 20647 W FinalizerDaemon: type=1400 audit(0.0:15860): avc:  denied  { getopt } for  path="/dev/socket/usap_pool_secondary" scontext=u:r:untrusted_app_30:s0:c3,c257,c512,c768 tcontext=u:r:zygote:s0 tclass=unix_stream_socket permissive=0 app=top.niunaijun.blackdexa32
+10-22 10:36:24.267 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~w0NABJyE0bdGvFS05gdi3A==/org.telegram.messenger-AXwHsnGc8c23pPtQLbG5aA==/base.apk' with 1 weak references
+10-22 10:36:24.268 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~w0NABJyE0bdGvFS05gdi3A==/org.telegram.messenger-AXwHsnGc8c23pPtQLbG5aA==/split_config.ar.apk' with 1 weak references
+10-22 10:36:24.268 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~w0NABJyE0bdGvFS05gdi3A==/org.telegram.messenger-AXwHsnGc8c23pPtQLbG5aA==/split_config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.268 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~w0NABJyE0bdGvFS05gdi3A==/org.telegram.messenger-AXwHsnGc8c23pPtQLbG5aA==/split_config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.268 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~378hfB9yvMQe_HJ5Ms6XtA==/org.chromium.webapk.aecb84bc3eb2e99c3_v2-UXeU1LDSJ89gJDPVWLoMqg==/base.apk' with 1 weak references
+10-22 10:36:24.269 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~nPSUCIoR4oOs2uN0H9-zrw==/com.rhmsoft.edit-rGsxQq2nzsbOTIyUgXj6IA==/base.apk' with 1 weak references
+10-22 10:36:24.269 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~nPSUCIoR4oOs2uN0H9-zrw==/com.rhmsoft.edit-rGsxQq2nzsbOTIyUgXj6IA==/split_config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.269 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~oQYhuCPS8OQVKt7-zM0ITQ==/com.google.android.apps.messaging-uour40pfFXjTHm6noCip1w==/base.apk' with 1 weak references
+10-22 10:36:24.269 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~oQYhuCPS8OQVKt7-zM0ITQ==/com.google.android.apps.messaging-uour40pfFXjTHm6noCip1w==/split_config.ar.apk' with 1 weak references
+10-22 10:36:24.269 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~oQYhuCPS8OQVKt7-zM0ITQ==/com.google.android.apps.messaging-uour40pfFXjTHm6noCip1w==/split_config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.269 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~oQYhuCPS8OQVKt7-zM0ITQ==/com.google.android.apps.messaging-uour40pfFXjTHm6noCip1w==/split_config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.269 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~446H0IWWx8PcUHHfHJHd3w==/com.duosecurity.duomobile-UqFJ2EVaVCSgiicBQO65zg==/base.apk' with 1 weak references
+10-22 10:36:24.270 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~TboM7Eg_pAPAkpwND9RHZA==/bin.mt.plus-BTpuphLWFWOYVt3SzRVwsw==/base.apk' with 1 weak references
+10-22 10:36:24.270 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~W9zb_YTZHVRq2zJOlH4C7Q==/com.happymod.apk-k0tslcMn5Z93PaCC3yfTVw==/base.apk' with 1 weak references
+10-22 10:36:24.271 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~s4zZ1LAI8Hoyc5DO8vA5Ng==/com.snaptube.premium-0qUzKLZHcsz31qvF5kbVFg==/base.apk' with 1 weak references
+10-22 10:36:24.271 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~xvOruwKFONLQZ6HOMXjlhA==/com.twitter.android-NFYRaQE6uKZXxPu6Oirk5w==/base.apk' with 1 weak references
+10-22 10:36:24.271 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~xvOruwKFONLQZ6HOMXjlhA==/com.twitter.android-NFYRaQE6uKZXxPu6Oirk5w==/split_config.ar.apk' with 1 weak references
+10-22 10:36:24.271 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~xvOruwKFONLQZ6HOMXjlhA==/com.twitter.android-NFYRaQE6uKZXxPu6Oirk5w==/split_config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.271 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~xvOruwKFONLQZ6HOMXjlhA==/com.twitter.android-NFYRaQE6uKZXxPu6Oirk5w==/split_config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.272 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Uv_Iq1VkqpZByZIQLiGsXQ==/com.jana.tube.video-Rnv4RpvAcLwyfQunoV4vNQ==/base.apk' with 1 weak references
+10-22 10:36:24.272 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Uv_Iq1VkqpZByZIQLiGsXQ==/com.jana.tube.video-Rnv4RpvAcLwyfQunoV4vNQ==/split_config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.272 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Uv_Iq1VkqpZByZIQLiGsXQ==/com.jana.tube.video-Rnv4RpvAcLwyfQunoV4vNQ==/split_config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.272 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/base.apk' with 1 weak references
+10-22 10:36:24.273 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_config.ar.apk' with 1 weak references
+10-22 10:36:24.273 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.273 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.273 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_kakao.apk' with 1 weak references
+10-22 10:36:24.273 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_line.apk' with 1 weak references
+10-22 10:36:24.273 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_line_nonus.apk' with 1 weak references
+10-22 10:36:24.273 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_live_byte_link.apk' with 1 weak references
+10-22 10:36:24.274 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_live_byte_link.config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.274 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_live_cmaf.apk' with 1 weak references
+10-22 10:36:24.274 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_live_cmaf.config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.274 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_live_p2p.apk' with 1 weak references
+10-22 10:36:24.274 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_live_p2p.config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.274 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_live_quic.apk' with 1 weak references
+10-22 10:36:24.275 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_live_quic.config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.275 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_live_rtmglobal.apk' with 1 weak references
+10-22 10:36:24.275 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_live_rtmglobal.config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.275 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_location.apk' with 1 weak references
+10-22 10:36:24.275 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_location.config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.275 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_music_dsp.apk' with 1 weak references
+10-22 10:36:24.275 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_oppo_hyperboost.apk' with 1 weak references
+10-22 10:36:24.275 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_oppo_push.apk' with 1 weak references
+10-22 10:36:24.276 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_oppo_push.config.ar.apk' with 1 weak references
+10-22 10:36:24.276 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_pitaya.apk' with 1 weak references
+10-22 10:36:24.276 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_pitaya.config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.276 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_player.apk' with 1 weak references
+10-22 10:36:24.276 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_player.config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.276 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_search_adblock.apk' with 1 weak references
+10-22 10:36:24.276 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_ship.apk' with 1 weak references
+10-22 10:36:24.276 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_ship.config.ar.apk' with 1 weak references
+10-22 10:36:24.276 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_ship.config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.276 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_ship.config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.276 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_tiktok_font.apk' with 1 weak references
+10-22 10:36:24.276 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_transsion.apk' with 1 weak references
+10-22 10:36:24.276 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_vmsdk.apk' with 1 weak references
+10-22 10:36:24.276 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~E5VV2XiHr_U_G_sXDzdEZg==/com.zhiliaoapp.musically-FSUNpYtAYMh7xW1DIYdIPA==/split_df_vmsdk.config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.276 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~iU9wv-T5h0ePOOm319OUJA==/org.telegram.plus-56VnI0DC11YvX0XOPd1PLA==/base.apk' with 1 weak references
+10-22 10:36:24.277 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~iU9wv-T5h0ePOOm319OUJA==/org.telegram.plus-56VnI0DC11YvX0XOPd1PLA==/split_config.ar.apk' with 1 weak references
+10-22 10:36:24.277 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~iU9wv-T5h0ePOOm319OUJA==/org.telegram.plus-56VnI0DC11YvX0XOPd1PLA==/split_config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.277 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~iU9wv-T5h0ePOOm319OUJA==/org.telegram.plus-56VnI0DC11YvX0XOPd1PLA==/split_config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.277 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~d5gMQ-OqudwjXD0y_1gPCA==/com.picsart.studio.light-JEBBbRG1q_h7OSVF-ixFXg==/base.apk' with 1 weak references
+10-22 10:36:24.278 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~d5gMQ-OqudwjXD0y_1gPCA==/com.picsart.studio.light-JEBBbRG1q_h7OSVF-ixFXg==/split_config.ar.apk' with 1 weak references
+10-22 10:36:24.278 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~d5gMQ-OqudwjXD0y_1gPCA==/com.picsart.studio.light-JEBBbRG1q_h7OSVF-ixFXg==/split_config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.278 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~d5gMQ-OqudwjXD0y_1gPCA==/com.picsart.studio.light-JEBBbRG1q_h7OSVF-ixFXg==/split_config.en.apk' with 1 weak references
+10-22 10:36:24.278 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~d5gMQ-OqudwjXD0y_1gPCA==/com.picsart.studio.light-JEBBbRG1q_h7OSVF-ixFXg==/split_config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.279 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~VEJA7WtlTeLD1n2foxcyZg==/ir.ilmili.telegraph-RbzezuKEhlH1w2qIYeLjaw==/base.apk' with 1 weak references
+10-22 10:36:24.279 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~VEJA7WtlTeLD1n2foxcyZg==/ir.ilmili.telegraph-RbzezuKEhlH1w2qIYeLjaw==/split_config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.279 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~VEJA7WtlTeLD1n2foxcyZg==/ir.ilmili.telegraph-RbzezuKEhlH1w2qIYeLjaw==/split_config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.279 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~PQJxA39GJ2gVwuccwhlMHw==/com.bgpworks.vpn-RIRkjw-XcGCUlEPWD-xhzg==/base.apk' with 1 weak references
+10-22 10:36:24.279 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~7s_NtVqkm7BLuEnabs6fsQ==/rk.android.app.privacydashboard-TEHaqwJw0cQHRHcNAJD5sA==/base.apk' with 1 weak references
+10-22 10:36:24.280 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~1ZZ5r4hP4GFsUBJb9prpqg==/com.termux-ov9lRmDlIcqATVL74hR5Hw==/base.apk' with 1 weak references
+10-22 10:36:24.280 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~VX8sWO3F_R75ANQfzMUoQg==/sami.pro.keyboard.free-yYC25755FxfBy211IKnRzA==/base.apk' with 1 weak references
+10-22 10:36:24.280 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~VX8sWO3F_R75ANQfzMUoQg==/sami.pro.keyboard.free-yYC25755FxfBy211IKnRzA==/split_config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.280 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/base.apk' with 1 weak references
+10-22 10:36:24.281 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_agora.apk' with 1 weak references
+10-22 10:36:24.281 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_agora.config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.281 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_agora.config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.281 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_cameraml.apk' with 1 weak references
+10-22 10:36:24.281 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_cameraml.config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.281 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_cameraml.config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.281 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_config.ar.apk' with 1 weak references
+10-22 10:36:24.281 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.281 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.281 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_libMpcConnect.apk' with 1 weak references
+10-22 10:36:24.281 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_libMpcConnect.config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.281 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_libMpcConnect.config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.281 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_libMpcTrustWallet.apk' with 1 weak references
+10-22 10:36:24.281 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_libMpcTrustWallet.config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.281 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_libMpcTrustWallet.config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.281 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_major.apk' with 1 weak references
+10-22 10:36:24.282 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_major.config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.282 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_major.config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.282 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_mpc.apk' with 1 weak references
+10-22 10:36:24.282 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_mpc.config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.282 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_mpc.config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.282 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_trade.apk' with 1 weak references
+10-22 10:36:24.282 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~8RB3o4zhgVdWoK-wY7mBRQ==/com.binance.dev-O8WMxl7hVggeqE0kU7Sy9g==/split_trade.config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.282 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~xrH4axK5Y5n2JhyeiHq3Lw==/com.nordskog.LesserAudioSwitch-9cyXT3xdo7KEaW-NeAC_9w==/base.apk' with 1 weak references
+10-22 10:36:24.282 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~SBHLAitIy6FgG-7hkILDIg==/com.kvassyu.coding2.cpp-Q3smlsQeh3IxsGyVuBbcGA==/base.apk' with 1 weak references
+10-22 10:36:24.282 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~SBHLAitIy6FgG-7hkILDIg==/com.kvassyu.coding2.cpp-Q3smlsQeh3IxsGyVuBbcGA==/split_config.ar.apk' with 1 weak references
+10-22 10:36:24.282 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~SBHLAitIy6FgG-7hkILDIg==/com.kvassyu.coding2.cpp-Q3smlsQeh3IxsGyVuBbcGA==/split_config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.283 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~SBHLAitIy6FgG-7hkILDIg==/com.kvassyu.coding2.cpp-Q3smlsQeh3IxsGyVuBbcGA==/split_config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.283 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~BYhbeeJ9CIUGv66ktmwVGQ==/com.google.android.play.games-59YFNicnsCPglT8f_Zd8Rg==/base.apk' with 1 weak references
+10-22 10:36:24.283 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~BYhbeeJ9CIUGv66ktmwVGQ==/com.google.android.play.games-59YFNicnsCPglT8f_Zd8Rg==/split_config.ar.apk' with 1 weak references
+10-22 10:36:24.283 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~BYhbeeJ9CIUGv66ktmwVGQ==/com.google.android.play.games-59YFNicnsCPglT8f_Zd8Rg==/split_config.arm64_v8a.apk' with 1 weak references
+10-22 10:36:24.283 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~BYhbeeJ9CIUGv66ktmwVGQ==/com.google.android.play.games-59YFNicnsCPglT8f_Zd8Rg==/split_config.xxhdpi.apk' with 1 weak references
+10-22 10:36:24.283 20647 16855 W jun.blackdexa32: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~OxxJK4si2RgK6DjrEFcaOw==/com.google.android.libraries.internal.sampleads_20008-UUU0WJymXIXW2p4xwxpr1w==/base.apk' with 1 weak references
+10-22 10:37:06.929 20647 20647 D BufferQueueConsumer: [](id:50a700000002,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:37:06.932 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:37:06.947 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#2](f:0,a:1) acquireNextBufferLocked size=1080x824 mFrameNumber=1 applyTransaction=true mTimestamp=12466925965126(auto) mPendingTransactions.size=0 graphicBufferId=88678189760528 transform=0
+10-22 10:37:06.985 20647 20647 D VRI[MainActivity]: hardware acceleration = true, forceHwAccelerated = false
+10-22 10:37:07.002 20647 20647 D InputTransport: Create ARC handle: 0xd7f29ad0
+10-22 10:37:07.002 20647 20647 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+10-22 10:37:07.002 20647 20647 D InputTransport: Input log is disabled in InputChannel.
+10-22 10:37:07.002 20647 20647 D TranActivityAppturboImpl: onResumeHork
+10-22 10:37:07.017 20647 16900 W SQLiteLog: (28) double-quoted string literal: "UjftmJwNeB//pVBx7mhtEUpD0ov9epSS2vA4IHQ5COzCu2dAPW6k7O1ShPKbPL3Z+k8H1SfDmJqg
+10-22 10:37:07.017 20647 16900 W SQLiteLog: XF6E8SppJw==
+10-22 10:37:07.017 20647 16900 W SQLiteLog: "
+10-22 10:37:07.017 20647 16900 W SQLiteLog: (28) double-quoted string literal: "C7E224705C8DACEB50929AB327CF67EB"
+10-22 10:37:07.018 20647 16900 W SQLiteLog: (28) double-quoted string literal: "1729582578598"
+10-22 10:37:07.018 20647 16900 W SQLiteLog: (28) double-quoted string literal: "C7E224705C8DACEB50929AB327CF67EB"
+10-22 10:37:07.027 20647 16900 W SQLiteLog: (28) double-quoted string literal: "1729582578598"
+10-22 10:37:07.027 20647 16900 W SQLiteLog: (28) double-quoted string literal: "0"
+10-22 10:37:07.027 20647 16900 W SQLiteLog: (28) double-quoted string literal: ""
+10-22 10:37:07.027 20647 16900 W SQLiteLog: (28) double-quoted string literal: ""
+10-22 10:37:07.027 20647 16900 W SQLiteLog: (28) double-quoted string literal: "C7E224705C8DACEB50929AB327CF67EB"
+10-22 10:37:07.050 20647 20647 D BufferQueueConsumer: [](id:50a700000003,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:37:07.053 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:37:07.077 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#3](f:0,a:1) acquireNextBufferLocked size=1080x2436 mFrameNumber=1 applyTransaction=true mTimestamp=12467056527973(auto) mPendingTransactions.size=0 graphicBufferId=88678189760538 transform=0
+10-22 10:37:07.115 20647 20647 D BufferQueueConsumer: [](id:50a700000004,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:37:07.118 20647 20647 I config_debug: updateDecorCaptionStatus: {1.0 418mcc20mnc [ar_EG] ldrtl sw360dp w360dp h736dp 480dpi nrml long widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2436) mAppBounds=Rect(0, 108 - 1080, 2316) mMaxBounds=Rect(0, 0 - 1080, 2436) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mMultiWindowMode=normal mMultiWindowId=0 mWindowResiable=6 mInLargeScreen=-1 mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.1 fontWeightAdjustment=0} fromMultiWindow: true
+10-22 10:37:07.119 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:37:07.136 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#4](f:0,a:1) acquireNextBufferLocked size=1080x824 mFrameNumber=1 applyTransaction=true mTimestamp=12467115388280(auto) mPendingTransactions.size=0 graphicBufferId=88678189760546 transform=0
+10-22 10:37:07.151 20647 16900 W SQLiteLog: (28) double-quoted string literal: "CC3FD94CEE17539EAE5095F662C3357C"
+10-22 10:37:07.156 20647 16900 W SQLiteLog: (28) double-quoted string literal: "CC3FD94CEE17539EAE5095F662C3357C"
+10-22 10:37:07.156 20647 16900 W SQLiteLog: (28) double-quoted string literal: ""
+10-22 10:37:07.157 20647 16900 W SQLiteLog: (28) double-quoted string literal: "CC3FD94CEE17539EAE5095F662C3357C"
+10-22 10:37:07.157 20647 16900 W SQLiteLog: (28) double-quoted string literal: "-1"
+10-22 10:37:07.160 20647 16901 D TrafficStats: tagSocket(244) with statsTag=0xffffffff, statsUid=-1
+10-22 10:37:07.219 20647 16900 W SQLiteLog: (28) double-quoted string literal: "C7E224705C8DACEB50929AB327CF67EB"
+10-22 10:37:07.716 20647 20647 I ImeTracker: top.niunaijun.blackdexa32:622adf71: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+10-22 10:37:07.719 20647 20647 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda19@79aadce
+10-22 10:37:07.727 20647 16909 D OpenGLRenderer: endAllActiveAnimators on 0xe3a34090 (RippleDrawable) with handle 0xd7f1f350
+10-22 10:37:07.727 20647 20647 D View    : [Warning] assignParent to null: this = DecorView@ec3cadb[MainActivity]
+10-22 10:37:07.738 20647 16928 D BLASTBufferQueue: [VRI[MainActivity]#4](f:0,a:1) destructor()
+10-22 10:37:07.738 20647 16928 D BufferQueueConsumer: [VRI[MainActivity]#4(BLAST Consumer)4](id:50a700000004,api:0,p:-1,c:20647) disconnect
+10-22 10:37:07.743 20647 20647 D InputTransport: Destroy ARC handle: 0xd7f29ad0
+10-22 10:37:07.749 20647 16900 W SQLiteLog: (28) double-quoted string literal: "+RDNGgHSh7AsCwLQGcPzUWQkChVujjXu9JJd+g2bODGym2ZleMgGirm4dGegrESanZjm1cFwWXvV
+10-22 10:37:07.749 20647 16900 W SQLiteLog: d4SXvP+Qu2s8AD6yuqFZgrqRQI+eCglcQANpdHqk2eVwRyN8ntruCIejVSZpReP6hkVBT0XLy84r
+10-22 10:37:07.749 20647 16900 W SQLiteLog: ONncYIQkwmDPIvCmUf94UAyM
+10-22 10:37:07.749 20647 16900 W SQLiteLog: (28) double-quoted string literal: "CC3FD94CEE17539EAE5095F662C3357C"
+10-22 10:37:08.194 20647 20647 D BLASTBufferQueue: [VRI[MainActivity]#3](f:0,a:1) destructor()
+10-22 10:37:08.195 20647 20647 D BufferQueueConsumer: [VRI[MainActivity]#3(BLAST Consumer)3](id:50a700000003,api:0,p:-1,c:20647) disconnect
+10-22 10:37:08.213 20647 20647 D BLASTBufferQueue: [VRI[MainActivity]#2](f:0,a:1) destructor()
+10-22 10:37:08.214 20647 20647 D BufferQueueConsumer: [VRI[MainActivity]#2(BLAST Consumer)2](id:50a700000002,api:0,p:-1,c:20647) disconnect
+10-22 10:37:09.071 20647 16901 D TrafficStats: tagSocket(3) with statsTag=0xffffffff, statsUid=-1
+10-22 10:37:09.670 20647 20647 D BufferQueueConsumer: [](id:50a700000005,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:37:09.672 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:37:09.678 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#5](f:0,a:1) acquireNextBufferLocked size=1080x824 mFrameNumber=1 applyTransaction=true mTimestamp=12469656924280(auto) mPendingTransactions.size=0 graphicBufferId=88678189760552 transform=0
+10-22 10:37:09.684 20647 20647 D TranActivityAppturboImpl: onResumeHork
+10-22 10:37:09.691 20647 16900 W SQLiteLog: (28) double-quoted string literal: "CC3FD94CEE17539EAE5095F662C3357C"
+10-22 10:37:09.691 20647 16900 W SQLiteLog: (28) double-quoted string literal: ""
+10-22 10:37:09.691 20647 16900 W SQLiteLog: (28) double-quoted string literal: "CC3FD94CEE17539EAE5095F662C3357C"
+10-22 10:37:09.691 20647 16900 W SQLiteLog: (28) double-quoted string literal: "-1"
+10-22 10:37:09.705 20647 20647 D BufferQueueConsumer: [](id:50a700000006,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:37:09.707 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:37:09.718 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#6](f:0,a:1) acquireNextBufferLocked size=1080x2436 mFrameNumber=1 applyTransaction=true mTimestamp=12469697577742(auto) mPendingTransactions.size=0 graphicBufferId=88678189760562 transform=0
+10-22 10:37:09.742 20647 20647 D VRI[MainActivity]: hardware acceleration = true, forceHwAccelerated = false
+10-22 10:37:09.759 20647 20647 D InputTransport: Create ARC handle: 0xd7f222d0
+10-22 10:37:09.759 20647 20647 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+10-22 10:37:09.759 20647 20647 D InputTransport: Input log is disabled in InputChannel.
+10-22 10:37:09.792 20647 20647 D BufferQueueConsumer: [](id:50a700000007,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:37:09.793 20647 20647 I config_debug: updateDecorCaptionStatus: {1.0 418mcc20mnc [ar_EG] ldrtl sw360dp w360dp h736dp 480dpi nrml long widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2436) mAppBounds=Rect(0, 108 - 1080, 2316) mMaxBounds=Rect(0, 0 - 1080, 2436) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mMultiWindowMode=normal mMultiWindowId=0 mWindowResiable=6 mInLargeScreen=-1 mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.1 fontWeightAdjustment=0} fromMultiWindow: true
+10-22 10:37:09.794 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:37:09.807 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#7](f:0,a:1) acquireNextBufferLocked size=1080x661 mFrameNumber=1 applyTransaction=true mTimestamp=12469786301127(auto) mPendingTransactions.size=0 graphicBufferId=88678189760575 transform=0
+10-22 10:37:09.843 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:37:09.856 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#7](f:0,a:2) producer disconnected before acquireNextBufferLocked
+10-22 10:37:09.995 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:37:10.071 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#7](f:0,a:2) producer disconnected before acquireNextBufferLocked
+10-22 10:37:11.074 20647 16935 D TranClassInfo: instance successfully. com.transsion.hubcore.view.TranSurfaceControlImpl@f514eb1 from com.transsion.hubcore.view.ITranSurfaceControl
+10-22 10:37:11.078 20647 16935 D TranClassInfo: instance successfully. com.transsion.hubcore.widget.TranScrollPolicyImpl@97e9f96 from com.transsion.hubcore.widget.ITranScrollPolicy
+10-22 10:37:11.078 20647 16935 D TranClassInfo: instance successfully. com.transsion.hubcore.spdopts.magellan.implement.TranScrollPolicyMagellanImpl@38dd717 from com.transsion.hubcore.magellan.ITranMagellanScrollPolicyComponent
+10-22 10:37:11.398 20647 20647 D TranClassInfo: instance successfully. com.transsion.hubcore.spdopts.appturbo.implement.TranAppturboComponentImpl@7f222e9 from com.transsion.hubcore.appturbo.ITranAppturboComponent
+10-22 10:37:11.398 20647 20647 D TranClassInfo: instance successfully. com.transsion.hubcore.spdopts.magellan.implement.TranMagellanComponentImpl@1f20b6e from com.transsion.hubcore.magellan.ITranMagellanComponent
+10-22 10:37:11.400 20647 20647 D OverScroller: SplineOverScroller fling startFlingBoost mPowerHandle = [0]
+10-22 10:37:11.400 20647 20647 I ScrollIdentify: on fling
+10-22 10:37:11.849 20647 20647 D OverScroller: SplineOverScroller fling releaseFlingBoost mPowerHandle = [33122]
+10-22 10:37:11.850 20647 20647 D OverScroller: SplineOverScroller fling releaseFlingBoost mPowerHandle = [33122]
+10-22 10:37:12.302 20647 20647 D OverScroller: SplineOverScroller fling startFlingBoost mPowerHandle = [33122]
+10-22 10:37:12.302 20647 20647 I ScrollIdentify: on fling
+10-22 10:37:12.314 20647 20647 D OverScroller: SplineOverScroller fling releaseFlingBoost mPowerHandle = [33137]
+10-22 10:37:12.314 20647 20647 D OverScroller: SplineOverScroller fling releaseFlingBoost mPowerHandle = [33137]
+10-22 10:37:12.898 20647 20647 D OverScroller: SplineOverScroller fling releaseFlingBoost mPowerHandle = [33137]
+10-22 10:37:13.103 20647 20647 D OverScroller: SplineOverScroller fling startFlingBoost mPowerHandle = [33137]
+10-22 10:37:13.104 20647 20647 I ScrollIdentify: on fling
+10-22 10:37:13.292 20647 20647 D OverScroller: SplineOverScroller fling releaseFlingBoost mPowerHandle = [33152]
+10-22 10:37:13.292 20647 20647 D OverScroller: SplineOverScroller fling releaseFlingBoost mPowerHandle = [33152]
+10-22 10:37:14.014 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:37:14.043 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#7](f:0,a:2) producer disconnected before acquireNextBufferLocked
+10-22 10:37:22.814 20647 16900 W SQLiteLog: (28) double-quoted string literal: "
+10-22 10:37:22.814 20647 16900 W SQLiteLog: (28) double-quoted string literal: "CC3FD94CEE17539EAE5095F662C3357C"
+10-22 10:37:22.863 20647 20647 D BLASTBufferQueue: [VRI[MainActivity]#7](f:0,a:1) destructor()
+10-22 10:37:22.863 20647 20647 D BufferQueueConsumer: [VRI[MainActivity]#7(BLAST Consumer)7](id:50a700000007,api:0,p:-1,c:20647) disconnect
+10-22 10:37:22.914 20647 20647 D BLASTBufferQueue: [VRI[MainActivity]#6](f:0,a:1) destructor()
+10-22 10:37:22.914 20647 20647 D BufferQueueConsumer: [VRI[MainActivity]#6(BLAST Consumer)6](id:50a700000006,api:0,p:-1,c:20647) disconnect
+10-22 10:37:22.961 20647 20647 D BLASTBufferQueue: [VRI[MainActivity]#5](f:0,a:1) destructor()
+10-22 10:37:22.961 20647 20647 D BufferQueueConsumer: [VRI[MainActivity]#5(BLAST Consumer)5](id:50a700000005,api:0,p:-1,c:20647) disconnect
+10-22 10:37:43.345 20647 20647 D BufferQueueConsumer: [](id:50a700000008,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:37:43.349 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:37:43.369 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#8](f:0,a:1) acquireNextBufferLocked size=1080x824 mFrameNumber=1 applyTransaction=true mTimestamp=12503347729513(auto) mPendingTransactions.size=0 graphicBufferId=88678189760595 transform=0
+10-22 10:37:43.382 20647 20647 D TranActivityAppturboImpl: onResumeHork
+10-22 10:37:43.413 20647 16900 W SQLiteLog: (28) double-quoted string literal: "CC3FD94CEE17539EAE5095F662C3357C"
+10-22 10:37:43.413 20647 16900 W SQLiteLog: (28) double-quoted string literal: ""
+10-22 10:37:43.413 20647 16900 W SQLiteLog: (28) double-quoted string literal: "CC3FD94CEE17539EAE5095F662C3357C"
+10-22 10:37:43.413 20647 16900 W SQLiteLog: (28) double-quoted string literal: "-1"
+10-22 10:37:43.417 20647 20647 D BufferQueueConsumer: [](id:50a700000009,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:37:43.421 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:37:43.431 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#9](f:0,a:1) acquireNextBufferLocked size=1080x1186 mFrameNumber=1 applyTransaction=true mTimestamp=12503410272282(auto) mPendingTransactions.size=0 graphicBufferId=88678189760601 transform=0
+10-22 10:37:43.462 20647 20647 D BufferQueueConsumer: [](id:50a70000000a,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:37:43.465 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:37:43.488 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#10](f:0,a:1) acquireNextBufferLocked size=1080x2436 mFrameNumber=1 applyTransaction=true mTimestamp=12503467102667(auto) mPendingTransactions.size=0 graphicBufferId=88678189760609 transform=0
+10-22 10:37:49.401 20647 16900 W SQLiteLog: (28) double-quoted string literal: "
+10-22 10:37:49.401 20647 16900 W SQLiteLog: (28) double-quoted string literal: "CC3FD94CEE17539EAE5095F662C3357C"
+10-22 10:37:49.455 20647 16853 I jun.blackdexa32: Background concurrent mark compact GC freed 3923KB AllocSpace bytes, 16(704KB) LOS objects, 49% free, 4244KB/8489KB, paused 9.754ms,4.382ms total 60.300ms
+10-22 10:37:49.859 20647 20647 D BLASTBufferQueue: [VRI[MainActivity]#9](f:0,a:1) destructor()
+10-22 10:37:49.859 20647 20647 D BufferQueueConsumer: [VRI[MainActivity]#9(BLAST Consumer)9](id:50a700000009,api:0,p:-1,c:20647) disconnect
+10-22 10:37:49.876 20647 20647 D BLASTBufferQueue: [VRI[MainActivity]#8](f:0,a:1) destructor()
+10-22 10:37:49.876 20647 20647 D BufferQueueConsumer: [VRI[MainActivity]#8(BLAST Consumer)8](id:50a700000008,api:0,p:-1,c:20647) disconnect
+10-22 10:37:49.892 20647 20647 D BLASTBufferQueue: [VRI[MainActivity]#10](f:0,a:1) destructor()
+10-22 10:37:49.893 20647 20647 D BufferQueueConsumer: [VRI[MainActivity]#10(BLAST Consumer)10](id:50a70000000a,api:0,p:-1,c:20647) disconnect
+10-22 10:38:09.840 20647 20647 D BufferQueueConsumer: [](id:50a70000000b,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:38:09.841 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:09.851 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#11](f:0,a:1) acquireNextBufferLocked size=1080x824 mFrameNumber=1 applyTransaction=true mTimestamp=12529830279284(auto) mPendingTransactions.size=0 graphicBufferId=88678189760617 transform=0
+10-22 10:38:09.856 20647 20647 D TranActivityAppturboImpl: onResumeHork
+10-22 10:38:09.874 20647 16900 W SQLiteLog: (28) double-quoted string literal: "CC3FD94CEE17539EAE5095F662C3357C"
+10-22 10:38:09.874 20647 16900 W SQLiteLog: (28) double-quoted string literal: ""
+10-22 10:38:09.874 20647 16900 W SQLiteLog: (28) double-quoted string literal: "CC3FD94CEE17539EAE5095F662C3357C"
+10-22 10:38:09.874 20647 16900 W SQLiteLog: (28) double-quoted string literal: "-1"
+10-22 10:38:09.885 20647 20647 D BufferQueueConsumer: [](id:50a70000000c,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:38:09.886 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:09.892 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#12](f:0,a:1) acquireNextBufferLocked size=1080x1186 mFrameNumber=1 applyTransaction=true mTimestamp=12529871150746(auto) mPendingTransactions.size=0 graphicBufferId=88678189760625 transform=0
+10-22 10:38:09.916 20647 20647 D BufferQueueConsumer: [](id:50a70000000d,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:38:09.918 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:09.932 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#13](f:0,a:1) acquireNextBufferLocked size=1080x2436 mFrameNumber=1 applyTransaction=true mTimestamp=12529910879669(auto) mPendingTransactions.size=0 graphicBufferId=88678189760635 transform=0
+10-22 10:38:11.902 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:11.942 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#12](f:0,a:2) producer disconnected before acquireNextBufferLocked
+10-22 10:38:12.959 20647 20647 I ImeTracker: top.niunaijun.blackdexa32:f5d51cf2: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+10-22 10:38:12.961 20647 20647 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda19@d51ddac
+10-22 10:38:12.962 20647 20647 D OverScroller: SplineOverScroller fling releaseFlingBoost mPowerHandle = [33152]
+10-22 10:38:12.964 20647 20647 D View    : [Warning] assignParent to null: this = DecorView@b833b62[MainActivity]
+10-22 10:38:12.966 20647 20647 D BLASTBufferQueue: [VRI[MainActivity]#12](f:0,a:1) destructor()
+10-22 10:38:12.966 20647 20647 D BufferQueueConsumer: [VRI[MainActivity]#12(BLAST Consumer)12](id:50a70000000c,api:0,p:-1,c:20647) disconnect
+10-22 10:38:12.983 20647 20647 D InputTransport: Destroy ARC handle: 0xd7f222d0
+10-22 10:38:12.985 20647 20647 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-22 10:38:13.791 20647 20647 I ImeTracker: top.niunaijun.blackdexa32:86124ced: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+10-22 10:38:13.792 20647 20647 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda19@48250d8
+10-22 10:38:13.794 20647 20647 D View    : [Warning] assignParent to null: this = DecorView@9431c29[MainActivity]
+10-22 10:38:13.795 20647 20647 D BLASTBufferQueue: [VRI[MainActivity]#11](f:0,a:1) destructor()
+10-22 10:38:13.795 20647 20647 D BufferQueueConsumer: [VRI[MainActivity]#11(BLAST Consumer)11](id:50a70000000b,api:0,p:-1,c:20647) disconnect
+10-22 10:38:13.807 20647 20647 D InputTransport: Destroy ARC handle: 0xd7f2d9b0
+10-22 10:38:13.808 20647 20647 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-22 10:38:14.794 20647 20647 D VRI[MainActivity]: hardware acceleration = true, forceHwAccelerated = false
+10-22 10:38:14.807 20647 20647 D InputTransport: Create ARC handle: 0xd7f1a910
+10-22 10:38:14.807 20647 20647 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+10-22 10:38:14.807 20647 20647 D InputTransport: Input log is disabled in InputChannel.
+10-22 10:38:14.824 20647 20647 D BufferQueueConsumer: [](id:50a70000000e,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:38:14.825 20647 20647 I config_debug: updateDecorCaptionStatus: {1.0 418mcc20mnc [ar_EG] ldrtl sw360dp w360dp h736dp 480dpi nrml long widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2436) mAppBounds=Rect(0, 108 - 1080, 2316) mMaxBounds=Rect(0, 0 - 1080, 2436) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mMultiWindowMode=normal mMultiWindowId=0 mWindowResiable=6 mInLargeScreen=-1 mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.1 fontWeightAdjustment=0} fromMultiWindow: true
+10-22 10:38:14.825 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:14.836 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#14](f:0,a:1) acquireNextBufferLocked size=1080x661 mFrameNumber=1 applyTransaction=true mTimestamp=12534815815900(auto) mPendingTransactions.size=0 graphicBufferId=88678189760656 transform=0
+10-22 10:38:14.868 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:14.877 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#14](f:0,a:2) producer disconnected before acquireNextBufferLocked
+10-22 10:38:14.990 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:15.033 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#14](f:0,a:2) producer disconnected before acquireNextBufferLocked
+10-22 10:38:17.440 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:17.498 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#14](f:0,a:2) producer disconnected before acquireNextBufferLocked
+10-22 10:38:24.223 20647 20647 I ImeTracker: top.niunaijun.blackdexa32:bd6930c7: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+10-22 10:38:24.224 20647 20647 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda19@ab6d1e8
+10-22 10:38:24.226 20647 20647 D View    : [Warning] assignParent to null: this = DecorView@38df823[MainActivity]
+10-22 10:38:24.227 20647 20647 D BLASTBufferQueue: [VRI[MainActivity]#14](f:0,a:1) destructor()
+10-22 10:38:24.227 20647 20647 D BufferQueueConsumer: [VRI[MainActivity]#14(BLAST Consumer)14](id:50a70000000e,api:0,p:-1,c:20647) disconnect
+10-22 10:38:24.247 20647 20647 D InputTransport: Destroy ARC handle: 0xd7f1a910
+10-22 10:38:24.248 20647 20647 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-22 10:38:25.538 20647 20647 D VRI[MainActivity]: hardware acceleration = true, forceHwAccelerated = false
+10-22 10:38:25.552 20647 20647 D InputTransport: Create ARC handle: 0xd7f12fd0
+10-22 10:38:25.552 20647 20647 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+10-22 10:38:25.552 20647 20647 D InputTransport: Input log is disabled in InputChannel.
+10-22 10:38:25.573 20647 20647 D BufferQueueConsumer: [](id:50a70000000f,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:38:25.574 20647 20647 I config_debug: updateDecorCaptionStatus: {1.0 418mcc20mnc [ar_EG] ldrtl sw360dp w360dp h736dp 480dpi nrml long widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2436) mAppBounds=Rect(0, 108 - 1080, 2316) mMaxBounds=Rect(0, 0 - 1080, 2436) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mMultiWindowMode=normal mMultiWindowId=0 mWindowResiable=6 mInLargeScreen=-1 mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.1 fontWeightAdjustment=0} fromMultiWindow: true
+10-22 10:38:25.575 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:25.588 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#15](f:0,a:1) acquireNextBufferLocked size=1080x874 mFrameNumber=1 applyTransaction=true mTimestamp=12545567798977(auto) mPendingTransactions.size=0 graphicBufferId=88678189760680 transform=0
+10-22 10:38:25.701 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:25.750 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#15](f:0,a:2) producer disconnected before acquireNextBufferLocked
+10-22 10:38:29.557 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:29.593 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#15](f:0,a:2) producer disconnected before acquireNextBufferLocked
+10-22 10:38:36.007 20647 16900 W SQLiteLog: (28) double-quoted string literal: "
+10-22 10:38:36.007 20647 16900 W SQLiteLog: (28) double-quoted string literal: "CC3FD94CEE17539EAE5095F662C3357C"
+10-22 10:38:36.523 20647 20647 D BLASTBufferQueue: [VRI[MainActivity]#13](f:0,a:1) destructor()
+10-22 10:38:36.523 20647 20647 D BufferQueueConsumer: [VRI[MainActivity]#13(BLAST Consumer)13](id:50a70000000d,api:0,p:-1,c:20647) disconnect
+10-22 10:38:36.538 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#15](f:0,a:1) destructor()
+10-22 10:38:36.538 20647 16909 D BufferQueueConsumer: [VRI[MainActivity]#15(BLAST Consumer)15](id:50a70000000f,api:0,p:-1,c:20647) disconnect
+10-22 10:38:45.687 20647 20647 D BufferQueueConsumer: [](id:50a700000010,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:38:45.689 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:45.702 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#16](f:0,a:1) acquireNextBufferLocked size=1080x1186 mFrameNumber=1 applyTransaction=true mTimestamp=12565680795901(auto) mPendingTransactions.size=0 graphicBufferId=88678189760697 transform=0
+10-22 10:38:45.710 20647 20647 D TranActivityAppturboImpl: onResumeHork
+10-22 10:38:45.723 20647 16900 W SQLiteLog: (28) double-quoted string literal: "CC3FD94CEE17539EAE5095F662C3357C"
+10-22 10:38:45.723 20647 16900 W SQLiteLog: (28) double-quoted string literal: ""
+10-22 10:38:45.723 20647 16900 W SQLiteLog: (28) double-quoted string literal: "CC3FD94CEE17539EAE5095F662C3357C"
+10-22 10:38:45.723 20647 16900 W SQLiteLog: (28) double-quoted string literal: "-1"
+10-22 10:38:45.742 20647 20647 D BufferQueueConsumer: [](id:50a700000011,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:38:45.743 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:45.760 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#17](f:0,a:1) acquireNextBufferLocked size=1080x2436 mFrameNumber=1 applyTransaction=true mTimestamp=12565739018671(auto) mPendingTransactions.size=0 graphicBufferId=88678189760706 transform=0
+10-22 10:38:49.883 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:49.927 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#16](f:0,a:2) producer disconnected before acquireNextBufferLocked
+10-22 10:38:50.503 20647 20647 I ImeTracker: top.niunaijun.blackdexa32:a7b31b82: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+10-22 10:38:50.505 20647 20647 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda19@cf33662
+10-22 10:38:50.507 20647 20647 D View    : [Warning] assignParent to null: this = DecorView@6bd489f[MainActivity]
+10-22 10:38:50.508 20647 20647 D BLASTBufferQueue: [VRI[MainActivity]#16](f:0,a:1) destructor()
+10-22 10:38:50.508 20647 20647 D BufferQueueConsumer: [VRI[MainActivity]#16(BLAST Consumer)16](id:50a700000010,api:0,p:-1,c:20647) disconnect
+10-22 10:38:50.526 20647 20647 D InputTransport: Destroy ARC handle: 0xd7f12fd0
+10-22 10:38:50.527 20647 20647 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-22 10:38:53.910 20647 20647 D OverScroller: SplineOverScroller fling startFlingBoost mPowerHandle = [0]
+10-22 10:38:53.911 20647 20647 I ScrollIdentify: on fling
+10-22 10:38:54.428 20647 20647 D VRI[MainActivity]: hardware acceleration = true, forceHwAccelerated = false
+10-22 10:38:54.443 20647 20647 D InputTransport: Create ARC handle: 0xd7f23530
+10-22 10:38:54.443 20647 20647 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+10-22 10:38:54.443 20647 20647 D InputTransport: Input log is disabled in InputChannel.
+10-22 10:38:54.464 20647 20647 D BufferQueueConsumer: [](id:50a700000012,api:0,p:-1,c:20647) connect: controlledByApp=false
+10-22 10:38:54.466 20647 20647 I config_debug: updateDecorCaptionStatus: {1.0 418mcc20mnc [ar_EG] ldrtl sw360dp w360dp h736dp 480dpi nrml long widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2436) mAppBounds=Rect(0, 108 - 1080, 2316) mMaxBounds=Rect(0, 0 - 1080, 2436) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mMultiWindowMode=normal mMultiWindowId=0 mWindowResiable=6 mInLargeScreen=-1 mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.1 fontWeightAdjustment=0} fromMultiWindow: true
+10-22 10:38:54.469 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:54.479 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#18](f:0,a:1) acquireNextBufferLocked size=1080x661 mFrameNumber=1 applyTransaction=true mTimestamp=12574459028210(auto) mPendingTransactions.size=0 graphicBufferId=88678189760727 transform=0
+10-22 10:38:54.506 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:54.517 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#18](f:0,a:2) producer disconnected before acquireNextBufferLocked
+10-22 10:38:54.624 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:54.669 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#18](f:0,a:2) producer disconnected before acquireNextBufferLocked
+10-22 10:38:54.812 20647 20647 D OverScroller: SplineOverScroller fling releaseFlingBoost mPowerHandle = [33552]
+10-22 10:38:54.812 20647 20647 D OverScroller: SplineOverScroller fling releaseFlingBoost mPowerHandle = [33552]
+10-22 10:38:55.783 20647 20647 I ScrollIdentify: on fling
+10-22 10:38:56.736 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:56.787 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#18](f:0,a:2) producer disconnected before acquireNextBufferLocked
+10-22 10:38:59.891 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:38:59.933 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#18](f:0,a:2) producer disconnected before acquireNextBufferLocked
+10-22 10:39:01.521 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:39:01.629 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#18](f:0,a:2) producer disconnected before acquireNextBufferLocked
+10-22 10:39:03.265 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:39:03.398 20647 20647 I Choreographer: Skipped 48 frames!  The application may be doing too much work on its main thread.
+10-22 10:39:03.399 20647 20647 D TranClassInfo: instance successfully. com.transsion.hubcore.view.TranChoreographerImpl@3ffcebb from com.transsion.hubcore.view.ITranChoreographer
+10-22 10:39:03.399 20647 20647 E TranChoreographerImpl: skippedFrames: 48
+10-22 10:39:03.415 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#18](f:0,a:2) producer disconnected before acquireNextBufferLocked
+10-22 10:39:04.625 20647 20647 D OverScroller: SplineOverScroller fling startFlingBoost mPowerHandle = [0]
+10-22 10:39:04.626 20647 20647 I ScrollIdentify: on fling
+10-22 10:39:04.632 20647 20647 D OverScroller: SplineOverScroller fling releaseFlingBoost mPowerHandle = [33600]
+10-22 10:39:04.632 20647 20647 D OverScroller: SplineOverScroller fling releaseFlingBoost mPowerHandle = [33600]
+10-22 10:39:14.231 20647 20647 I Choreographer: Skipped 44 frames!  The application may be doing too much work on its main thread.
+10-22 10:39:14.231 20647 20647 E TranChoreographerImpl: skippedFrames: 44
+10-22 10:39:15.742 20647 16909 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-22 10:39:15.845 20647 16909 D BLASTBufferQueue: [VRI[MainActivity]#18](f:0,a:2) producer disconnected before acquireNextBufferLocked
+10-22 10:39:18.090 20647 20647 I ImeTracker: top.niunaijun.blackdexa32:f696bb9f: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+10-22 10:39:18.092 20647 20647 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda19@74a06d3
+10-22 10:39:18.093 20647 20647 D OverScroller: SplineOverScroller fling releaseFlingBoost mPowerHandle = [33600]
+10-22 10:39:18.094 20647 20647 D View    : [Warning] assignParent to null: this = DecorView@61e325a[MainActivity]
+10-22 10:39:18.094 20647 20647 D BLASTBufferQueue: [VRI[MainActivity]#18](f:0,a:1) destructor()
+10-22 10:39:18.094 20647 20647 D BufferQueueConsumer: [VRI[MainActivity]#18(BLAST Consumer)18](id:50a700000012,api:0,p:-1,c:20647) disconnect
+10-22 10:39:18.115 20647 20647 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-22 10:39:18.116 20647 20647 D InputTransport: Destroy ARC handle: 0xd7f23530
+10-22 10:39:19.545 20647 16900 W SQLiteLog: (28) double-quoted string literal: "
+10-22 10:39:19.545 20647 16900 W SQLiteLog: (28) double-quoted string literal: "CC3FD94CEE17539EAE5095F662C3357C"
+10-22 10:39:19.592 20647 20647 D BLASTBufferQueue: [VRI[MainActivity]#17](f:0,a:1) destructor()
+10-22 10:39:19.592 20647 20647 D BufferQueueConsumer: [VRI[MainActivity]#17(BLAST Consumer)17](id:50a700000011,api:0,p:-1,c:20647) disconnect
